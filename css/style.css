@@ -685,7 +685,9 @@ li.time:not(:last-child):before {
 .contact-info span{
     font-weight: bold;
 }
-.contact-have input[type="text"] {
+.contact-have input[type="text"],
+.contact-have input[type="email"],
+.contact-have input[type="tel"] {
     width: 100%;
     margin-top: 20px;
     color: #757678;
