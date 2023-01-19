@@ -171,6 +171,11 @@
 		left: 72%;
 	}
 }
+@media(max-width: 1400px){
+	.content-data{
+		display: none;
+	}
+}
 @media(max-width: 1200px){
 	/*header*/
 	body.dark-layout header.pages-one ul.menu-item li{
@@ -231,7 +236,7 @@
 	body.dark-layout .user-data
 	a.button.button--moema.button--text-thick.button--text-upper.button--size-s {
 	    display: inline-block;
-	    width: 70%;
+	    width: 100%;
 	}
 	.headings > h3:before{
 		display: none;
@@ -239,7 +244,7 @@
 	.Experience .education h5:before {
     	left: -9.5%;
 	}
-	.content-data,.header-home-one{
+	.header-home-one{
 		display: none;
 	}
 

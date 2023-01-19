@@ -1,12 +1,16 @@
 .slide-container {
-  margin: auto;
   width: 600px;
   text-align: center;
 
   position: fixed;
   top: 5%;
-  right: -6%;
 }
+@media only screen and (max-width: 1565px) {
+  .slide-container {
+    right: -6%;
+  }
+}
+
 .wrapper {
   padding-top: 40px;
   padding-bottom: 40px;
