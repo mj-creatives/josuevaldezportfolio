@@ -1,0 +1,59 @@
+
+:root {
+    --color-dark-demo: #030718;
+  }
+  body.dark-layout .box .your-name,
+  body.dark-layout textarea,
+  body.dark-layout form.one input[type="text"]{
+      background-color: var(--color-dark-demo);
+  }
+  body.dark-layout form.one textarea,body.dark-layout form.one input[type="text"],body.dark-layout .mobile-nav li:before{
+      background-color: var(--color-dark);
+  }
+  body.dark-layout .box h5{
+      color: white;
+  }
+  body.dark-layout form.one input[type="text"],body.dark-layout textarea{
+      color:  var(--color-white);
+  }
+  body.dark-layout p{
+      color: #bbbbbb;
+  }
+  body.dark-layout .nice-select.Advice,body.dark-layout textarea,body.dark-layout form.one input[type="text"]{
+      border: 0;
+  }
+  body.dark-layout .nice-select:after{
+      border-color: white;
+  }
+  body.dark-layout .mobile-nav li:hover:before {
+      background: #1da1f3;
+  }
+  body.dark-layout .mobile-nav > ul > li > a{
+      color: var(--color-white);
+  }
+  body.dark-layout .user-info a.button.button--moema.button--text-thick.button--text-upper.button--size-s{
+          display: block;
+      }
+  body.dark-layout .service svg {
+      height: 85px;
+      fill: white;
+  }
+  body.dark-layout .user-data a.button.button--moema.button--text-thick.button--text-upper.button--size-s {
+      display: inline-block;
+  }
+  body.dark-layout #mobile-nav:before {
+      opacity: 1;
+  }
+  body.dark-layout .contact-have textarea{
+      border: 1px solid #757678;
+  }
+  body.dark-layout #mobile-nav {
+      background-color: black;
+  }
+  body.dark-layout .nice-select.Advice{
+          background-color: var(--color-dark);
+  }
+  body.dark-layout{ 
+      background-color: #030718;
+  }
+  

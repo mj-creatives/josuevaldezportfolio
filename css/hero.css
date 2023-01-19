@@ -1,0 +1,72 @@
+.section-dark-blue-bg {
+  background: #252734;
+}
+.hero-wrapper {
+  position: relative;
+  height: 940px;
+  overflow: hidden;
+  z-index: 1;
+}
+@media (min-width:576px) {
+  .hero-wrapper {
+  height: 1180px;
+}
+}@media (min-width:768px) {
+  .hero-wrapper {
+  height: 1200px;
+}
+}@media (min-width:992px) {
+  .hero-wrapper {
+  height: 750px;
+}
+}@media (min-width:1200px) {
+  .hero-wrapper {
+  height: 910px;
+}
+}@media (min-width:1800px) {
+  .hero-wrapper {
+  height: 1130px;
+}
+}
+
+.hero-shape {
+  z-index: -1;
+}
+.hero-shape span {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 50%;
+  display: block;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  opacity: 0;
+}
+@media (min-width:1200px) {
+  .hero-shape span {
+  visibility: visible;
+  opacity: 1;
+}
+}.hero-shape span:nth-child(1) {
+  width: 440px;
+  height: 440px;
+}
+.hero-shape span:nth-child(2) {
+  width: 560px;
+  height: 560px;
+}
+.hero-shape span:nth-child(3) {
+  width: 700px;
+  height: 700px;
+}
+.hero-top-shape {
+  position: absolute;
+  top: -100px;
+}
+.hero-bottom-shape {
+  position: absolute;
+  bottom: -100px;
+}
+/* ABOVE CSS ONLY */
