@@ -635,8 +635,9 @@ li.time:not(:last-child):before {
     margin-right: 15px;
 }
 .headings.skills h3:before {
-    left: 35%;
+    left: 40%;
 }
+
 @keyframes load {
     0% {
         width: 0;
@@ -648,10 +649,10 @@ li.time:not(:last-child):before {
 /*portfolio*/
 
 .headings.work h3:before {
-    left: 32%;
+    left: 37%;
 }
 .contact-info .headings h3:before {
-    left: 50%;
+    left: 60%;
 }
 .contact-have .headings h3:before {
     left: 68%;
