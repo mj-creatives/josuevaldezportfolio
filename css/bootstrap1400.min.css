@@ -1,0 +1,6 @@
+@media (min-width: 1400px) {
+  .col-xxl-8 {
+      flex: 0 0 auto;
+      width: 66.66666667%;
+  }
+}
